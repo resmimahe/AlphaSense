@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Utility.extendReport"/>
+      <class name="AlphaSenseProject.QAhomeTask.test3_completeItemPurchaceTest"/>
+      <class name="AlphaSenseProject.QAhomeTask.test2_searchResultChcekTest"/>
+      <class name="AlphaSenseProject.QAhomeTask.test1_userSignUpTest"/>
+      <class name="Utility.Base"/>
+      <class name="AlphaSenseProject.QAhomeTask.test4_downloadInvoice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

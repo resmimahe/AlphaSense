@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="AlphaSenseProject.QAhomeTask.test3_completeItemPurchaceTest">
+        <methods>
+          <include name="completeItemPurchase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AlphaSenseProject.QAhomeTask.test3_completeItemPurchaceTest -->
+      <class name="AlphaSenseProject.QAhomeTask.test2_searchResultChcekTest">
+        <methods>
+          <include name="verifySearchResult" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AlphaSenseProject.QAhomeTask.test2_searchResultChcekTest -->
+      <class name="AlphaSenseProject.QAhomeTask.test4_downloadInvoice">
+        <methods>
+          <include name="tearDown"/>
+          <include name="downloadInvoice" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AlphaSenseProject.QAhomeTask.test4_downloadInvoice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
